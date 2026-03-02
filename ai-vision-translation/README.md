@@ -8,15 +8,15 @@ This isn't a communication problem—it's a translation problem.
 
 AI vision sounds urgent at the top, vague in the middle, and impossible at the bottom. Executives think in business metrics. Product teams think in user workflows. Engineers think in technical feasibility. The mandate devolves as it cascades down, producing pilots that impress leadership but never become products.
 
-The AI Vision Translation Stack solves this by providing four sequential translation layers that convert executive AI ambition into executable product decisions. Each layer acts as a filter, translating the output of the previous layer into language the next group can act on. Skip any layer, and you'll build AI that either doesn't move business metrics, doesn't earn user trust, solves problems that don't require AI, or never ships.
+The AI Vision Translation Stack solves this by providing four sequential translation filters that convert executive AI ambition into executable product decisions. Each filter acts as a filter, translating the output of the previous filter into language the next group can act on. Skip any filter, and you'll build AI that either doesn't move business metrics, doesn't earn user trust, solves problems that don't require AI, or never ships.
 
 ## **The Structure**
 
-The framework consists of four layers, each answering a specific question and producing a concrete output:
+The framework consists of four filters, each answering a specific question and producing a concrete output:
 
-**Layer 1: What the Business Actually Wants**
+**Filter 1: What the Business Actually Wants**
 
-This layer strips away AI jargon to expose the real business objective.
+This filter strips away AI jargon to expose the real business objective.
 
 The key question: *"If we build nothing with AI, what business metric suffers in 12 months?"*
 
@@ -24,9 +24,9 @@ Don't accept "we need AI for documentation" as an answer. Push until you get a n
 
 Output: A one-sentence business objective with a measurable target. "Reduce physician documentation time by 25% within 12 months," not "leverage AI for clinical workflows."
 
-**Layer 2: What User Problem That Solves**
+**Filter 2: What User Problem That Solves**
 
-This layer translates business metrics into user job-to-be-done.
+This filter translates business metrics into user job-to-be-done.
 
 The key question: *"What's the user doing today that's painful, slow, or error-prone?"*
 
@@ -34,9 +34,9 @@ Critical constraint: Start with current-state frustration, not future-state poss
 
 Output: A clear before/after statement focused on user experience. "Physicians spend 4 hours daily on clinical notes" describes the problem. No mention of LLMs, fine-tuning, or embeddings yet.
 
-**Layer 3: Where AI Genuinely Helps vs. Where It's Forced**
+**Filter 3: Where AI Genuinely Helps vs. Where It's Forced**
 
-This layer determines whether AI is actually necessary or just fashionable.
+This filter determines whether AI is actually necessary or just fashionable.
 
 The key question: *"Would this problem still be hard without AI?"*
 
@@ -46,9 +46,9 @@ AI is forced when: a lookup table or filter would work, the problem is actually 
 
 Output: A specific AI capability with clear handoff points to non-AI logic. "Use collaborative filtering for 80% of users, LLM for edge cases where behavior data is sparse," not "AI-powered recommendations."
 
-**Layer 4: What Can Ship in 90 Days**
+**Filter 4: What Can Ship in 90 Days**
 
-This layer converts AI ambition into shippable scope.
+This filter converts AI ambition into shippable scope.
 
 The key question: *"What's the smallest version that proves the value and teaches us what we don't know?"*
 
@@ -62,9 +62,9 @@ Output: A specific feature with clear success criteria that ships to real users.
 
 **Before You Start**
 
-Schedule a 90-minute session. This cannot happen over Slack or email. Required attendees: executive sponsor, product lead, engineering lead, and domain expert. Prepare a one-page document template with all four layers.
+Schedule a 90-minute session. This cannot happen over Slack or email. Required attendees: executive sponsor, product lead, engineering lead, and domain expert. Prepare a one-page document template with all four filters.
 
-**Step 1: Extract the Real Business Objective (Layer 1\)**
+**Step 1: Extract the Real Business Objective (filter 1\)**
 
 Start by asking the executive sponsor: "If we build nothing with AI, what business metric suffers in 12 months?"
 
@@ -74,21 +74,21 @@ Identify which of the five business intentions this represents: Is this competit
 
 Write one sentence with a number. "Reduce customer support costs by 30%" not "transform customer experience with AI."
 
-If different attendees give different answers, you've just exposed the problem. Don't paper over this divergence—surface it explicitly. Misalignment at Layer 1 kills everything downstream.
+If different attendees give different answers, you've just exposed the problem. Don't paper over this divergence—surface it explicitly. Misalignment at filter 1 kills everything downstream.
 
-**Step 2: Translate to User Problem (Layer 2\)**
+**Step 2: Translate to User Problem (filter 2\)**
 
 Now ask the domain expert: "What's the user doing today that's painful, slow, or error-prone?"
 
 Describe current state only. "I wait 10 minutes on hold to ask about my order status" is the user problem. Don't let anyone jump to "AI could…" yet.
 
-Connect this user pain to the business metric from Layer 1\. How does solving this user frustration move that specific number?
+Connect this user pain to the business metric from filter 1\. How does solving this user frustration move that specific number?
 
 Write the before/after without mentioning technology: "Today: User spends 10 minutes on hold. Tomorrow: User gets instant answers."
 
 Test it: Would the user care about this improvement even if they never knew AI was involved? If the answer is no, you're building a solution in search of a problem.
 
-**Step 3: Determine Where AI Actually Helps (Layer 3\)**
+**Step 3: Determine Where AI Actually Helps (filter 3\)**
 
 Now ask the engineering lead: "Would this problem still be hard without AI?"
 
@@ -102,7 +102,7 @@ Be honest about retail inventory optimization. You might discover stockouts need
 
 Write the specific AI capability: "Auto-generate draft notes from voice recordings" not "leverage natural language processing."
 
-**Step 4: Scope the 90-Day Shipment (Layer 4\)**
+**Step 4: Scope the 90-Day Shipment (filter 4\)**
 
 Finally, ask everyone: "What's the smallest version that proves the value and teaches us what we don't know?"
 
@@ -124,11 +124,11 @@ Give the engineering lead veto power on timeline. If they say it's unrealistic, 
 
 **Working backwards from solution to problem.** Most companies start with "we need AI" and reverse-engineer justification. The vision starts specific but gets vaguer as it cascades down. Use this framework forward only: business objective → user problem → AI necessity → executable scope.
 
-**Skipping layers because they seem obvious.** Each layer exposes assumptions. When a healthcare company said "AI for clinical documentation," Layer 1 revealed the real goal was reducing physician burnout, Layer 2 identified the 4-hour daily documentation burden, and Layer 3 showed voice-to-text was only part of the solution.
+**Skipping filters because they seem obvious.** Each filter exposes assumptions. When a healthcare company said "AI for clinical documentation," filter 1 revealed the real goal was reducing physician burnout, filter 2 identified the 4-hour daily documentation burden, and filter 3 showed voice-to-text was only part of the solution.
 
-**Confusing user problems with business metrics.** "Reduce documentation time by 25%" is a business metric. "I spend 4 hours on notes instead of with patients" is the user problem. Layer 2 exists precisely because users don't care about your business metrics—they care about their workflow friction.
+**Confusing user problems with business metrics.** "Reduce documentation time by 25%" is a business metric. "I spend 4 hours on notes instead of with patients" is the user problem. filter 2 exists precisely because users don't care about your business metrics—they care about their workflow friction.
 
-**Assuming AI is always better than the alternative.** Sometimes a deterministic rule is faster, cheaper, and more reliable than a probabilistic model. Layer 3 forces the question: would this problem still be hard without AI?
+**Assuming AI is always better than the alternative.** Sometimes a deterministic rule is faster, cheaper, and more reliable than a probabilistic model. filter 3 forces the question: would this problem still be hard without AI?
 
 **Calling prototypes "shipped products."** Shipping to real users means validating model performance, data quality, and user trust—not just demonstrating capability to executives. If it doesn't have a kill switch and observable metrics, it's not shipped.
 
@@ -138,10 +138,10 @@ This framework assumes you're translating AI ambition into product execution. It
 
 **You're doing pure research.** If the goal is exploring AI capabilities without near-term product objectives, this framework will frustrate that exploration. Research has different success criteria.
 
-**The business objective is genuinely "innovation theater."** If Layer 1 reveals the real goal is satisfying board expectations or matching competitor announcements, and everyone acknowledges this, the framework still applies—but be honest about what success looks like. A compelling demo might be the real deliverable.
+**The business objective is genuinely "innovation theater."** If filter 1 reveals the real goal is satisfying board expectations or matching competitor announcements, and everyone acknowledges this, the framework still applies—but be honest about what success looks like. A compelling demo might be the real deliverable.
 
 **You lack authority to convene the required session.** This requires 90 minutes with executive sponsor, product lead, engineering lead, and domain expert in the room. If you can't assemble this group, you can't run the translation process effectively.
 
-**The timeline is either much shorter or much longer than 90 days.** The Layer 4 constraint is calibrated to balance ambition and execution. If you need something in 30 days, you're patching not building. If you're planning 12-month horizons, you need different tools for roadmap planning.
+**The timeline is either much shorter or much longer than 90 days.** The filter 4 constraint is calibrated to balance ambition and execution. If you need something in 30 days, you're patching not building. If you're planning 12-month horizons, you need different tools for roadmap planning.
 
 The framework works when someone needs to own the gap between "we need AI" and executable product decisions. If that's not your situation, this isn't your tool.
