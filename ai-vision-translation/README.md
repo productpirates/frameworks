@@ -4,7 +4,7 @@
 
 Your executive team says "we need AI." Your product team asks "for what?" Your engineering team mutters "this again?" By the time the mandate reaches implementation, everyone's talking about the same initiative using completely different languages.
 
-This isn't a communication problem—it's a translation problem.
+This isn't a communication problem, it's a translation problem.
 
 AI vision sounds urgent at the top, vague in the middle, and impossible at the bottom. Executives think in business metrics. Product teams think in user workflows. Engineers think in technical feasibility. The mandate devolves as it cascades down, producing pilots that impress leadership but never become products.
 
@@ -74,7 +74,7 @@ Identify which of the five business intentions this represents: Is this competit
 
 Write one sentence with a number. "Reduce customer support costs by 30%" not "transform customer experience with AI."
 
-If different attendees give different answers, you've just exposed the problem. Don't paper over this divergence—surface it explicitly. Misalignment at filter 1 kills everything downstream.
+If different attendees give different answers, you've just exposed the problem. Don't paper over this divergence, surface it explicitly. Misalignment at filter 1 kills everything downstream.
 
 **Step 2: Translate to User Problem (filter 2\)**
 
@@ -96,7 +96,7 @@ Apply the decision criteria systematically:
 
 For AI to genuinely help, you need: too many variables for simple rules, context-dependent answers, expert judgment that's hard to codify, or unstructured data at scale.
 
-If you have: static data that fits in a lookup table, a problem that's actually about confusing UX, zero tolerance for errors, or situations where a simple automation would work—AI is forced, not necessary.
+If you have: static data that fits in a lookup table, a problem that's actually about confusing UX, zero tolerance for errors, or situations where a simple automation would work, AI is forced, not necessary.
 
 Be honest about retail inventory optimization. You might discover stockouts need demand forecasting (AI helps) but slow reordering just needs automated thresholds (AI overkill). Building both with AI would take six months. Building the right solution for each takes six weeks.
 
@@ -126,11 +126,11 @@ Give the engineering lead veto power on timeline. If they say it's unrealistic, 
 
 **Skipping filters because they seem obvious.** Each filter exposes assumptions. When a healthcare company said "AI for clinical documentation," filter 1 revealed the real goal was reducing physician burnout, filter 2 identified the 4-hour daily documentation burden, and filter 3 showed voice-to-text was only part of the solution.
 
-**Confusing user problems with business metrics.** "Reduce documentation time by 25%" is a business metric. "I spend 4 hours on notes instead of with patients" is the user problem. filter 2 exists precisely because users don't care about your business metrics—they care about their workflow friction.
+**Confusing user problems with business metrics.** "Reduce documentation time by 25%" is a business metric. "I spend 4 hours on notes instead of with patients" is the user problem. filter 2 exists precisely because users don't care about your business metrics, they care about their workflow friction.
 
 **Assuming AI is always better than the alternative.** Sometimes a deterministic rule is faster, cheaper, and more reliable than a probabilistic model. filter 3 forces the question: would this problem still be hard without AI?
 
-**Calling prototypes "shipped products."** Shipping to real users means validating model performance, data quality, and user trust—not just demonstrating capability to executives. If it doesn't have a kill switch and observable metrics, it's not shipped.
+**Calling prototypes "shipped products."** Shipping to real users means validating model performance, data quality, and user trust, not just demonstrating capability to executives. If it doesn't have a kill switch and observable metrics, it's not shipped.
 
 ## **When Not to Use This Framework**
 
@@ -138,7 +138,7 @@ This framework assumes you're translating AI ambition into product execution. It
 
 **You're doing pure research.** If the goal is exploring AI capabilities without near-term product objectives, this framework will frustrate that exploration. Research has different success criteria.
 
-**The business objective is genuinely "innovation theater."** If filter 1 reveals the real goal is satisfying board expectations or matching competitor announcements, and everyone acknowledges this, the framework still applies—but be honest about what success looks like. A compelling demo might be the real deliverable.
+**The business objective is genuinely "innovation theater."** If filter 1 reveals the real goal is satisfying board expectations or matching competitor announcements, and everyone acknowledges this, the framework still applies, but be honest about what success looks like. A compelling demo might be the real deliverable.
 
 **You lack authority to convene the required session.** This requires 90 minutes with executive sponsor, product lead, engineering lead, and domain expert in the room. If you can't assemble this group, you can't run the translation process effectively.
 
