@@ -1,4 +1,4 @@
-![Frameworks Product Pirates for PMs](https://raw.githubusercontent.com/productpirates/images/refs/heads/main/open-graph-template.png?token=GHSAT0AAAAAADV4UOCM3DTHWRWNQY3IVDIA2NGH72Q)
+![Frameworks Product Pirates for PMs](https://raw.githubusercontent.com/folgato/productpirates/a28ad7c7e47488b1466ed6815e1ec485d776c1f6/open-graph-template.png)
 
 **Product Management Frameworks Repository**
 ============================================
