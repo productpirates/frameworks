@@ -1,4 +1,6 @@
-# **The AI Vision Translation Stack**
+![The AI Vision Translation Framework] (https://raw.githubusercontent.com/folgato/productpirates/refs/heads/main/FRAMEWORK-ai-vision-translation.png)
+
+# **The AI Vision Translation Framework**
 
 ## **What Problem This Solves**
 
