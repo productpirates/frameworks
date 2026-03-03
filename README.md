@@ -1,3 +1,5 @@
+![Frameworks Product Pirates for PMs](https://raw.githubusercontent.com/productpirates/images/refs/heads/main/open-graph-template.png?token=GHSAT0AAAAAADV4UOCM3DTHWRWNQY3IVDIA2NGH72Q)
+
 **Product Management Frameworks Repository**
 ============================================
 
@@ -36,3 +38,5 @@ Every framework is:
 Most product failures don’t come from lack of ideas — they come from lack of structure between ambition and execution.
 
 These frameworks exist to close that gap.
+
+
