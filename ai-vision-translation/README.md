@@ -16,7 +16,7 @@ The AI Vision Translation Stack solves this by providing four sequential transla
 
 The framework consists of four filters, each answering a specific question and producing a concrete output:
 
-**Filter 1: What the Business Actually Wants**
+### **Filter 1: What the Business Actually Wants**
 
 This filter strips away AI jargon to expose the real business objective.
 
@@ -26,7 +26,7 @@ Don't accept "we need AI for documentation" as an answer. Push until you get a n
 
 Output: A one-sentence business objective with a measurable target. "Reduce physician documentation time by 25% within 12 months," not "leverage AI for clinical workflows."
 
-**Filter 2: What User Problem That Solves**
+### **Filter 2: What User Problem That Solves**
 
 This filter translates business metrics into user job-to-be-done.
 
@@ -36,7 +36,7 @@ Critical constraint: Start with current-state frustration, not future-state poss
 
 Output: A clear before/after statement focused on user experience. "Physicians spend 4 hours daily on clinical notes" describes the problem. No mention of LLMs, fine-tuning, or embeddings yet.
 
-**Filter 3: Where AI Genuinely Helps vs. Where It's Forced**
+### **Filter 3: Where AI Genuinely Helps vs. Where It's Forced**
 
 This filter determines whether AI is actually necessary or just fashionable.
 
@@ -48,7 +48,7 @@ AI is forced when: a lookup table or filter would work, the problem is actually 
 
 Output: A specific AI capability with clear handoff points to non-AI logic. "Use collaborative filtering for 80% of users, LLM for edge cases where behavior data is sparse," not "AI-powered recommendations."
 
-**Filter 4: What Can Ship in 90 Days**
+### **Filter 4: What Can Ship in 90 Days**
 
 This filter converts AI ambition into shippable scope.
 
@@ -62,11 +62,11 @@ Output: A specific feature with clear success criteria that ships to real users.
 
 ## **How to Use It (Step-by-Step Application Guide)**
 
-**Before You Start**
+### **Before You Start**
 
 Schedule a 90-minute session. This cannot happen over Slack or email. Required attendees: executive sponsor, product lead, engineering lead, and domain expert. Prepare a one-page document template with all four filters.
 
-**Step 1: Extract the Real Business Objective (filter 1\)**
+### **Step 1: Extract the Real Business Objective (filter 1\)**
 
 Start by asking the executive sponsor: "If we build nothing with AI, what business metric suffers in 12 months?"
 
@@ -78,7 +78,7 @@ Write one sentence with a number. "Reduce customer support costs by 30%" not "tr
 
 If different attendees give different answers, you've just exposed the problem. Don't paper over this divergence, surface it explicitly. Misalignment at filter 1 kills everything downstream.
 
-**Step 2: Translate to User Problem (filter 2\)**
+### **Step 2: Translate to User Problem (filter 2\)**
 
 Now ask the domain expert: "What's the user doing today that's painful, slow, or error-prone?"
 
@@ -90,7 +90,7 @@ Write the before/after without mentioning technology: "Today: User spends 10 min
 
 Test it: Would the user care about this improvement even if they never knew AI was involved? If the answer is no, you're building a solution in search of a problem.
 
-**Step 3: Determine Where AI Actually Helps (filter 3\)**
+### **Step 3: Determine Where AI Actually Helps (filter 3\)**
 
 Now ask the engineering lead: "Would this problem still be hard without AI?"
 
@@ -104,7 +104,7 @@ Be honest about retail inventory optimization. You might discover stockouts need
 
 Write the specific AI capability: "Auto-generate draft notes from voice recordings" not "leverage natural language processing."
 
-**Step 4: Scope the 90-Day Shipment (filter 4\)**
+### **Step 4: Scope the 90-Day Shipment (filter 4\)**
 
 Finally, ask everyone: "What's the smallest version that proves the value and teaches us what we don't know?"
 
