@@ -1,3 +1,5 @@
+![The 4-Filter AI Roadmap Framework](https://raw.githubusercontent.com/folgato/productpirates/refs/heads/main/4-Filter%20AI%20Roadmap%20Framework.png)
+
 # How to Use the 4-Filter AI Roadmap
 
 **Author:** Carlos Oliveira — Product Pirates  
