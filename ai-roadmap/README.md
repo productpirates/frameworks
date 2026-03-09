@@ -8,6 +8,12 @@
 
 ---
 
+**Access the graphic framework:**
+
+https://productpirates.github.io/frameworks/ai-roadmap/index.html
+
+---
+
 ## What This Framework Is For
 
 Most AI roadmaps fail not because the engineering is bad, but because they were built as feature lists — not as alignment tools. The 4-Filter AI Roadmap fixes this by separating your strategy into four distinct layers, each answering a different question for a different audience.
